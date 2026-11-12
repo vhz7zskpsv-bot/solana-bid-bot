@@ -1,0 +1,11 @@
+console.log("Solana NFT Bid Bot start ho raha hai...");
+
+// Yahan hum market ka price check karne ka code likhenge
+const floorPrice = 1.5; // Farz karein floor price 1.5 SOL hai
+console.log("Current Collection Floor Price:", floorPrice, "SOL");
+
+if (floorPrice <= 2.0) {
+    console.log("Price kam hai! Bid lagane ki tayari ki ja rahi hai...");
+} else {
+    console.log("Price bohat zyada hai, intezaar kar rahe hain.");
+}
